@@ -18,18 +18,20 @@ body {
     background-color: red;
     border: 0.2em solid black;
     border-radius: 1.5em;
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    
   }
     
 .card footer {
     border-radius: 1.5em 1.5em 0 0;
     height: 1.875em;
     text-align: center;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
  
   }
 .card header {
     border-radius: 0 0 1.5em 1.5em;
     height: 1.875em; 
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
   }
   
 .card article img  {
@@ -44,7 +46,9 @@ h2,p{
 
 .card header, .card footer{
     height: 3.125em;
-    padding: 1em
+    padding: 1em;
+  
+    
 }
 
 .card article p{
@@ -52,6 +56,7 @@ h2,p{
     font-size: 1em;
     padding-left: 1em;
     padding-top: 1em;
+    
 }
 
 p{
@@ -78,7 +83,7 @@ article{
     background-color: rgb(111, 188, 214);
     border: 0.2em solid rgb(44, 109, 135);
     border-radius: 1.5em;
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+  
   }
     
 .card2 footer {
@@ -86,6 +91,7 @@ article{
     height: 1.875em;
     text-align: center;
     font: sans-serif;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0.1));
  
   }
 .card2 header {
@@ -94,6 +100,7 @@ article{
     height: 1.875em; 
     font-size: .9em;
     text-align: center;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0.1));
   }
   
 .card2 article img  {
@@ -105,7 +112,8 @@ article{
 
 .card2 header, .card2 footer{
     height: 3.125em;
-    padding: 1em
+    padding: 1em;
+    
 }
 
 .card2 article p{
