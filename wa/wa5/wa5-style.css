@@ -16,26 +16,20 @@ body{
 
 
 h1{
-    font-family: Arial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     bottom: 12mm;
     left: 20mm;
     font-size: 8em;
     color: white;
 
-    
-
-
-
 }
+
+
 .score {
     position: absolute;
     top: 12mm;
     left: 20mm;
-    width: 
-
-
-
 }
 
 .logo {
