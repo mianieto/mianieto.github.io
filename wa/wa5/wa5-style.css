@@ -18,24 +18,26 @@ body{
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
-    bottom: 12mm;
-    left: 20mm;
-    font-size: 8em;
+    bottom: 5mm;
+    left: 10mm;
+    font-size: 2em;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
 
 }
 
 
 .score {
     position: absolute;
-    top: 12mm;
-    left: 20mm;
+    top: 8mm;
+    left: 10mm;
 }
 
 .logo {
     position: absolute;
-    bottom: 12mm;
-    right: 20mm;
+    bottom: 7mm;
+    right: 10mm;
 
 }
 
