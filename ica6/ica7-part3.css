@@ -35,6 +35,6 @@
 }
 /* making screen orange when screen taller than 800px */
 @media screen and (min-height: 800px) {
-    #shortScreen{
+    #tallScreen{
     background-color: orange;}
 }
