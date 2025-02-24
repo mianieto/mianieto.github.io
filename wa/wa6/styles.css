@@ -35,6 +35,7 @@ body {
     padding: 0px;
     list-style: none;
 
+
   }
 
 
@@ -42,7 +43,7 @@ body {
   nav a {
     color: #fff;
     text-decoration: none;
-    padding: .5em 5em;
+    padding: .5em 1em;
   }
   
   .photos {
@@ -57,7 +58,7 @@ body {
   }
  
 
-/* making the changes for screens bigger than 500 */
+/* having the changes be for screens bigger than 500 */
 
   @media screen and (min-width: 501px) {
   
@@ -74,6 +75,7 @@ body {
     nav ul{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
    }
 
     .photos{
@@ -89,7 +91,7 @@ body {
 
 }
 
-/* making the changes for screens 500px and smaller */
+/* making everything into a column for screens 500px and smaller */
 
 @media screen and (max-width: 500px){
   .grid .photos{
