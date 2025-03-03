@@ -41,7 +41,7 @@ img{
     left:5vw;
     top:0;
     animation-name: box2move;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 
 }
@@ -80,6 +80,6 @@ img{
 }
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    color: rgb(251, 85, 85);
+    color: rgb(246, 127, 127);
     
 }
