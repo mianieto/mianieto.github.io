@@ -1,0 +1,168 @@
+body{
+    background-color:rgb(6, 6, 60);
+ 
+
+}
+
+body img{
+    object-fit: cover;
+}
+
+
+
+section{
+    margin-bottom:50px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(135, 215, 237);
+    
+}
+
+h2{
+    text-align: center;
+    color: rgb(58, 207, 56);
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between, center;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(57, 226, 99);
+
+}
+
+
+nav a{
+    width:30vw;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    
+}
+nav a:hover{
+    background-color: blue;
+}
+
+
+.concert1 p{
+    color: white;
+}
+.concert1 h3{
+    color: white;
+}
+.concert1 #information1{
+    color:white;
+}
+
+
+.concert2 p{
+    color: white;
+}
+.concert2 h3{
+    color: white;
+}
+.concert2 #information2{
+    color:white;
+}
+
+
+.concert3 p{
+    color: white;
+}
+.concert3 h3{
+    color: white;
+}
+.concert3 #information3{
+    color:white;
+}
+
+
+.concert4 p{
+    color: white;
+}
+.concert4 h3{
+    color: white;
+}
+.concert4 #information4{
+    color:white;
+}
+
+
+.concert5 p{
+    color: white;
+}
+.concert5 h3{
+    color: white;
+}
+.concert5 #information5{
+    color:white;
+}
+
+
+.concert6 p{
+    color: white;
+}
+.concert6 h3{
+    color: white;
+}
+.concert6 #information6{
+    color:white;
+}
+
+
+.concert7 p{
+    color: white;
+}
+.concert7 h3{
+    color: white;
+}
+.concert7 #information7{
+    color:white;
+}
+
+
+.concert8 p{
+    color: white;
+}
+.concert8 h3{
+    color: white;
+}
+.concert8 #information8{
+    color:white;
+}
+
+
+.concert9 p{
+    color: white;
+}
+.concert9 h3{
+    color: white;
+}
+.concert9 #information9{
+    color:white;
+}
+
+
+.concert10 p{
+    color: white;
+}
+.concert10 h3{
+    color: white;
+}
+.concert10 #information10{
+    color:white;
+}
+
+
+.concert1 .concert2 .concert3 .concert4 .concert5
+.concert6 .concert7 .concert8 .concert9 .concert10{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
