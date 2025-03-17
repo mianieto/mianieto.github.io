@@ -15,8 +15,8 @@ button {
 }
 
 [popover] {
-  background: black;
-  color: white;
+  background: rgb(171, 255, 2);
+  color: rgb(0, 0, 0);
   font-weight: 400;
   padding: 1rem 1.5rem;
   border-radius: 1rem;
@@ -44,7 +44,7 @@ body {
 
 /*   EXIT STATE   */
 [popover] {
-  transition: translate 0.7s ease-out, display 0.7s ease-out allow-discrete, overlay 0.7s ease-out allow-discrete;
+  transition: translate 0.3s ease-out, display 0.3s ease-out allow-discrete, overlay 0.3s ease-out allow-discrete;
   translate: 0 -22rem;
 }
 
