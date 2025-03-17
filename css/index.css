@@ -1,0 +1,206 @@
+body{
+    background-color:rgb(6, 6, 60);
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+}
+
+
+body, img{
+   max-width: 100%;
+   height: auto;
+   object-fit: cover;
+ 
+}
+
+
+
+
+
+h1{
+    text-align: center;
+    color: rgb(135, 215, 237);
+    font-family: "elevon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+
+h2{
+    text-align: center;
+    color: rgb(58, 207, 56);
+    font-family: "elevon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(57, 226, 99);
+    position: sticky;
+    top:0;
+    font-family: "elevon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    flex-grow: 1;
+    
+    
+}
+nav a:hover{
+    background-color: rgba(159, 252, 154, 0.864);
+
+}
+
+
+p{
+    color: white;
+}
+
+#information{
+    color:white;
+    margin-bottom: 30px;
+}
+h4{
+    color:rgb(36, 192, 88);
+    font-family: "elevon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+#discription{
+    color:white;
+    margin-bottom: 100px;
+
+}
+
+
+.concert-parent{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; 
+    padding: 20px;    
+    
+    
+}
+
+.concert1{
+    margin-bottom: 50px;
+   
+    
+} 
+
+.concert2{
+    margin-bottom: 50px; 
+}
+
+.concert3{
+    margin-bottom: 50px; 
+}
+
+ .concert4{
+    margin-bottom: 50px; 
+ }
+
+ .concert5{
+    margin-bottom: 50px; 
+ }
+
+ .concert6{
+    margin-bottom: 50px; 
+ }
+
+ .concert7 {
+    margin-bottom: 50px; 
+ }
+
+ .concert8{
+    margin-bottom: 50px; 
+ }
+
+ .concert9{
+    margin-bottom: 50px; 
+ }
+
+ .concert10 {
+    margin-bottom: 50px; 
+}
+
+
+
+
+h3{
+    font-family: "elevon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(57, 198, 198);
+}
+
+
+
+
+footer {
+    display: flex; 
+    flex-wrap: row;
+    background-color: #162584;
+    color: #fff;
+    padding: 20px; 
+    justify-content: space-between;
+    width: 100vm;  
+    position: relative; 
+    box-shadow: #fff;
+}
+
+footer header {
+    font-size: 1.2rem; 
+    margin-bottom: 30px; 
+    font-family: "elevon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(44, 234, 44);
+   
+}
+
+#contactUs,#aboutUs {
+    width: 45%;
+}
+
+#bottomImg{
+   max-width: 100%;
+   height: auto;
+    
+}
+
+
+
+
+@media (max-width: 400px) {
+    footer {
+        flex-direction: column;
+    }
+  
+    #contactUs,#aboutUs {
+        width: 100%;
+    }
+
+    #information, #discription {
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+}
