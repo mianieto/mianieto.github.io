@@ -3,6 +3,9 @@ body{
     margin: 0;
     padding: 0;
     width: 100%; 
+    font-family: "darkmode-on", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -63,7 +66,7 @@ nav a{
     
 }
 nav a:hover{
-    background-color: rgba(159, 252, 154, 0.864);
+    background-color: rgba(116, 255, 94, 0.864);
 
 }
 
@@ -94,7 +97,8 @@ h4{
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px; 
-    padding: 20px;    
+    padding: 20px; 
+    margin-top: 50px;
     
     
 }
@@ -102,8 +106,9 @@ h4{
 .concert1{
     margin-bottom: 50px;
    
-    
-} 
+}
+
+
 
 .concert2{
     margin-bottom: 50px; 
@@ -155,15 +160,15 @@ h3{
 
 
 footer {
-    display: flex; 
-    flex-wrap: row;
     background-color: #162584;
     color: #fff;
     padding: 20px; 
+    display: flex; 
+    flex-wrap: row;
     justify-content: space-between;
     width: 100vm;  
     position: relative; 
-    box-shadow: #fff;
+  
 }
 
 footer header {
@@ -189,18 +194,34 @@ footer header {
 
 
 
-@media (max-width: 400px) {
+@media screen and (max-width: 600px) {
     footer {
+        display: flex;
         flex-direction: column;
+        background-color: #162584;
+        color: #fff;
+        padding: 20px; 
+        justify-content: space-between;
+        width: 100vm;  
+        position: relative; 
+        object-fit: fill;
+    
+
+    }
+    #contactUs{
+        margin-bottom: 30px;
     }
   
     #contactUs,#aboutUs {
         width: 100%;
     }
 
-    #information, #discription {
-        margin-bottom: 20px;
-        padding: 10px;
+    nav a{
+
+
+
+
     }
+
 
 }
