@@ -9,8 +9,8 @@ button {
   
   &:hover,
   &:focus {
-    background: plum;
-    color: white;
+    background: rgb(92, 244, 10);
+    color: rgb(252, 6, 244);
   }
 }
 
