@@ -12,7 +12,7 @@
 @property --＠color-2 {
   syntax: "<color>";
   inherits: false;
-  initial-value: #e4a5d2;
+  initial-value: #b969a2;
 }
 
 /* keyframes that change the color variable */
