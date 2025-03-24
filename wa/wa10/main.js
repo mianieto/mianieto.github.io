@@ -12,7 +12,7 @@ let insertX = ["Lebron","Kyrie", "Carmelo" ];
 let insertY = ["Atlas bulding","Jamba Juice", "Canes"];
 let insertZ = ["died","got blown away", "turned into a zombie"];
 
-randomize.addEventListener('click', result());
+randomize.addEventListener('click', result);
 
 function result() {
 
@@ -22,13 +22,13 @@ function result() {
     var zItem = randomValueFromArray(insertZ);
     var newStory = newStory.replace(':insertx:', xItem);
     var newStory = newStory.replace(':inserty:', yItem);
-    var newStory = newStory.replace(':insertZ:', zItem);
+    var newStory = newStory.replace(':insertz:', zItem);
 
 
 
   if(customName.value !== '') {
     const name = customName.value;
-    newStory = newStory.replace('Mia', name);
+    newStory = newStory.replace('Bob', name);
 
   }
 
