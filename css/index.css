@@ -86,7 +86,7 @@ h4{
     font-style: normal;
 
 }
-#discription{
+#discription1, #discription2, #discription3, #discription4, #discription5, #discription7, #discription8, #discription9, #discription10{
     color:white;
     margin-bottom: 100px;
 
@@ -216,12 +216,6 @@ footer, #headerContact, #headerAbout {
         width: 100%;
     }
 
-    nav a{
-
-
-
-
-    }
 
 
 }
