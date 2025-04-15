@@ -12,7 +12,7 @@ html {
   
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    background-color: #c9bd95;
+    background-color: #f8c3f4;
   }
   
   .app {
@@ -34,12 +34,12 @@ html {
     border-bottom: 1px solid #ebebeb;
   }
   
-  .quotes {
+  .facts {
     padding: 20px 50px;
     min-height: 200px;
   }
   
-  .quote-text {
+  .fact-text {
     padding-bottom: 20px;
     font-size: 25px;
     color: black;
@@ -63,35 +63,47 @@ html {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
   }
   
-  .twitter {
-    background-color: #1da1f2;
+  .dog {
+    background-color: #7043ec;
     text-decoration: none;
   }
   
-  .twitter:hover {
-    background-color: #1e7fbb;
+  .dog:hover {
+    background-color: #532fb5;
   }
   
-  .new-quote {
-    background-color: #4A2B0F;
+  .cat {
+    background-color: #0c82e9;
     margin-bottom: 15px;
   }
   
-  .new-quote:hover {
-    background-color: #6d3b0e;
+  .cat:hover {
+    background-color: #0860ac;
   }
   
-  .new-quote:disabled {
+  .cat:disabled {
     background-color: #cccccc;
     color: #666666;
     cursor: not-allowed;
   }
+
+  .name{
+    background-color: #ed5ced;
+    margin-top: 15px;
+
+  }
+
+  .name:hover {
+    background-color: #a13ca1;
+  }
   
+
+
   @media screen and (max-width: 600px) {
     .app {
       width: 100%;
     }
-    .quote-text {
+    .fact-text {
       font-size: 18px;
     }
   }
