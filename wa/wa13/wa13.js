@@ -66,13 +66,12 @@ console.log(company);
 function total(company){
     let sum = 0
     for ( i in company.employees){
-        sum += company.employees[i].salary
-;    }
+        sum += parseInt(company.employees[i].salary);    }
 
     return console.log(sum);
 
     
-};
+}
 
 total(company);
 
