@@ -14,13 +14,10 @@
     margin:5vw;
     
 }
-#no0{
-    grid-column-start: 2;
-    grid-column-end: 3;
+#zero {
+    grid-column: 2;
+  }  
 
-
-    
-}
 
 .key {
     font-size: 24px;
@@ -35,5 +32,17 @@
     font-size: 24px;
     margin-bottom: 20px;
     min-height: 30px;
+    color: black;
   }
   
+#enter{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+#clear{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
