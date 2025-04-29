@@ -8,7 +8,7 @@
 
 }
 
-#grid-parent h1{
+#grid-parent{
     background-color: grey;
     padding:3vw 5vh;
     margin:5vw;
@@ -21,3 +21,19 @@
 
     
 }
+
+.key {
+    font-size: 24px;
+    padding: 20px;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+  }
+  
+#display {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    min-height: 30px;
+  }
+  
