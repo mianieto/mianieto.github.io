@@ -4,6 +4,8 @@
 const display = document.querySelector('#display');
 const keys = document.querySelectorAll('.key');
 const clearBtn = document.querySelector('#clear');
+const enterBtn = document.querySelector('#enter');
+
 
 
 //Key for keys
@@ -97,3 +99,10 @@ clearBtn.addEventListener('click', ()=> {
 
     });
 
+
+enterBtn.addEventListener('click', ()=>{
+    if(display.textContent.length === 10){
+    display.textContent = ''
+    }
+
+});
