@@ -1,3 +1,6 @@
+
+
+
 const display = document.querySelector('#display');
 const keys = document.querySelectorAll('.key');
 const clearBtn = document.querySelector('#clear');
